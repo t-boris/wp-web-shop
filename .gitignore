@@ -1,1 +1,3 @@
-/themes/fictional-university-theme/node_modules/
+/themes/*/node_modules/
+/plugins/
+/uploads/
