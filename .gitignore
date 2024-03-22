@@ -1,3 +1,4 @@
+/.idea
 /themes/*/node_modules/
-/plugins/
-/uploads/
+/plugins
+/uploads
