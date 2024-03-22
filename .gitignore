@@ -2,3 +2,4 @@
 /themes/*/node_modules/
 /plugins
 /uploads
+.DS_Store
