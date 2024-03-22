@@ -1,1 +1,5 @@
-/themes/fictional-university-theme/node_modules/
+/.idea
+/themes/*/node_modules/
+/plugins
+/uploads
+.DS_Store
