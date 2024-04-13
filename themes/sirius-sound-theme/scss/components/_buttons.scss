@@ -1,0 +1,45 @@
+// Base button style
+.button,
+button,
+input[type="submit"],
+input[type="button"] {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+
+  &:hover,
+  &:focus {
+    opacity: 0.9;
+  }
+}
+
+// Primary button
+.button-primary,
+button.primary {
+  background-color: #007bff;
+  color: #ffffff;
+  border: 1px solid transparent;
+
+  &:hover,
+  &:focus {
+    background-color: #0056b3;
+  }
+}
+
+// Secondary button
+.button-secondary,
+button.secondary {
+  background-color: #6c757d;
+  color: #ffffff;
+  border: 1px solid transparent;
+
+  &:hover,
+  &:focus {
+    background-color: #545b62;
+  }
+}

@@ -1,0 +1,41 @@
+.panel {
+  height: 100vh;
+  width: 100%;
+  &.green {
+    margin-bottom: 400px;
+    background-color: #8fb78c;
+  }
+  &.blue {
+    background-color: #4a90e2;
+  }
+  &.turquoise {
+    background-color: #4ecdc4;
+  }
+  &.bordeaux {
+    background-color: #b33f62;
+  }
+}
+
+#canvas-container {
+  position: relative;
+}
+#star-canvas, #wave-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#toggle-sound {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 3;
+}
+
+#star-canvas {
+  z-index: 1;
+}
+
+#wave-canvas {
+  z-index: 2;
+}

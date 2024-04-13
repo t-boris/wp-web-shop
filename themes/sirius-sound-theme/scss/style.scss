@@ -1,0 +1,23 @@
+// Base styles
+@import "base/reset";
+@import "base/typography";
+
+// Component styles
+@import "components/buttons";
+@import "components/navigation";
+
+// Layout styles
+@import "layout/header";
+@import "layout/footer";
+@import "layout/sidebar";
+
+// Page-specific styles
+@import "pages/home";
+@import "pages/about";
+@import "pages/contact";
+@import "pages/index";
+
+// Utilities
+@import "utils/variables";
+@import "utils/mixins";
+
